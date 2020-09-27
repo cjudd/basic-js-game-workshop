@@ -1,6 +1,6 @@
 ## Cougar Chase
 
-[![Cougar Chase Game Video](http://img.youtube.com/vi/bMUPywVctxE/0.jpg)](http://www.youtube.com/watch?v=bMUPywVctxE "Cougar Chase Game"){:target="_blank"}
+[![Cougar Chase Game Video](images/cougarchasevideo.png)](http://www.youtube.com/watch?v=bMUPywVctxE "Cougar Chase Game"){:target="_blank"}
 
 ### Markdown
 
