@@ -1,8 +1,6 @@
-## Welcome to GitHub Pages
+## Cougar Chase
 
-You can use the [editor on GitHub](https://github.com/cjudd/basic-js-game-workshop/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+[![Cougar Chase Game Video](http://img.youtube.com/vi/bMUPywVctxE/0.jpg)](http://www.youtube.com/watch?v=bMUPywVctxE "Cougar Chase Game")
 
 ### Markdown
 
