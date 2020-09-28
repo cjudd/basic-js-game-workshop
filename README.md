@@ -16,7 +16,7 @@ Web Browser and Internet connection. That's it. This workshop was intentinally d
 
 In HTML:
 
-``` HTML
+```HTML
 <!DOCTYPE html>
 <html>
   <head>
@@ -34,13 +34,13 @@ In HTML:
 
 In CSS
 
-``` CSS
+```CSS
 h1 {font-family: "helvetica"}
 ```
 
 In JavaScript + No-Library (pure JS)
 
-``` JavaScript
+```JavaScript
 class mainScene {
     preload() {
         // Preload assets like sprites and sounds
