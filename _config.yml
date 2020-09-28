@@ -1,7 +1,6 @@
 theme: jekyll-theme-slate
 title: Cougar Chase - Basic JavaScript Game Workshop
 markdown: kramdown
-highlighter: rouge
 kramdown:
   input: GFM
   syntax_highlighter: rouge
