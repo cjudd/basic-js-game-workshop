@@ -16,7 +16,7 @@ Web Browser and Internet connection. That's it. This workshop was intentinally d
 
 In HTML:
 
-```HTML
+```html
 <!DOCTYPE html>
 <html>
   <head>
@@ -34,7 +34,7 @@ In HTML:
 
 In CSS
 
-```CSS
+```css
 h1 {font-family: "helvetica"}
 ```
 
