@@ -40,7 +40,7 @@ h1 {font-family: "helvetica"}
 
 In JavaScript + No-Library (pure JS)
 
-```JavaScript
+```javascript
 class mainScene {
     preload() {
         // Preload assets like sprites and sounds
