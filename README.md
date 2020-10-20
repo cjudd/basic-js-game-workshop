@@ -73,7 +73,7 @@ The way the Phaser.io framework works and many other game frameworks is the prel
 ```
 3. In JavaScript, add the following to set up basic game mechanics.
 
-```javascript
+```
 class mainScene {
 
     preload() {
