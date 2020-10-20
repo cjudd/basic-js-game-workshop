@@ -21,6 +21,41 @@ Instead of using a text editor or IDE to write code, we will use the web site ht
 
 JSFiddle is organized in 4 main quadrants. The top left is where you enter HTML, the code that renders a web page. In the top right is where you enter CSS, the style that makes your web pages look attractive. In the bottom left is where you enter JavaScript, a programming language that adds the behavior and functionality to your application/game. Finally, the bottom right is where you see the results after pressing the run button. This is where you will be able to play the game. 
 
+## Add web page
+
+We will start by adding some basic HTML to host the game.
+
+1. In HTML (top left quadrant), add the following html to create a page with a title of Cougar Chase and a message to the user about how to play the game.
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cougar Chase</title>
+  </head>
+  <body>
+    <h1>Cougar Chase</h1>
+    <p>Use the arrow keys to move around and collect the coins.</p>
+  </body>
+</html>
+```
+1. Press the run button.
+
+In Result, you should see a basic white web with the title and message.  
+
+![Basic web page with title and message to use arrow keys to collect coins](images/webpage.png)
+
+## Add some style
+
+1. In CSS (top right quadrant), add the following CSS to make the title look prettier with a Helvetica font.
+```css
+h1 {font-family: "helvetica"}
+```
+1. Press the run button.
+
+In Result, you should see the updated title with the Helvetica font.
+
+![Title with Helvetica font](images/title.png)
+
 
 
 ## Final Solution
