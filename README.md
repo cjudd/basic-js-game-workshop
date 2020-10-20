@@ -1,6 +1,6 @@
 ## Cougar Chase
 
-Cougar Chase is a simple yet fun game intended to teach people 12 and older the basics of programming and game development using nothing but a browser and the free open source [Phaser.io](http://www.phaser.io/) game framework.
+Cougar Chase is a simple yet fun game intended to teach people 12 and older the basics of programming and game development using nothing but a browser, the free open source [Phaser.io](http://www.phaser.io/) game framework, JavaScript and HTML.
 
 ![Cougar Chase Game Play](images/CougarChase.gif)
 
@@ -9,7 +9,18 @@ Cost - $0
 
 ## Prerequisites
 
-Web Browser and Internet connection. That's it. This workshop was intentinally designed to have the minimal amount of tools and setup necessary to make a functional game.
+Web Browser and Internet connection. That's it. This workshop was intentinally designed to have the minimal amount of tools and setup necessary to make a functional game. 
+
+## Setup
+
+Instead of using a text editor or IDE to write code, we will use the web site https://jsfiddle.net/. JSFiddle enables us to edit and run JavaScript, HTML and CSS all inside the browser.
+
+1. Using a web browser to navigate, go to https://jsfiddle.net/.
+
+![JSFiddle](images/JSFiddle.png)
+
+JSFiddle is organized in 4 main quadrants. The top left is where you enter HTML, the code that renders a web page. In the top right is where you enter CSS, the style that makes your web pages look attractive. In the bottom left is where you enter JavaScript, a programming language that adds the behavior and functionality to your application/game. Finally, the bottom right is where you see the results after pressing the run button. This is where you will be able to play the game. 
+
 
 
 ## Final Solution
