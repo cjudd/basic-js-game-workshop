@@ -68,12 +68,13 @@ The way the Phaser.io framework works and many other game frameworks is the prel
 <script src="//cdn.jsdelivr.net/npm/phaser@3.24.1/dist/phaser.min.js"></script>
 ```
 2. Also in HTML below `<h1>Cougar Chase</h1>` and above `<p>Use the arrow keys to move around and collect the coins.</p>` add the following game div that Phaser.io will render the game.
-```html
+
+```
 <div id="game"></div>
 ```
 3. In JavaScript, add the following to set up basic game mechanics.
 
-```
+```javascript
 class mainScene {
 
     preload() {
