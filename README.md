@@ -207,6 +207,10 @@ Of course while playing the game, you will want to know how many coins you have 
 
 ![Score](images/score.png)
 
+## Experiment
+
+Many software developers got their start copy and pasting code and making modifications to see what it would do. So experiment. Try causing the player to grow by 200%. Try making player spawn in the center of the screen. It is your game so make it yours.
+
 ## Final Solution
 
 If you run into problems or just want to get to the solution quickly, you can copy and paste the solution into the 3 corresponding quadrants and run it. 
