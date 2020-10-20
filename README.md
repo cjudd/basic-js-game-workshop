@@ -26,6 +26,7 @@ JSFiddle is organized in 4 main quadrants. The top left is where you enter HTML,
 We will start by adding some basic HTML to host the game.
 
 1. In HTML (top left quadrant), add the following html to create a page with a title of Cougar Chase and a message to the user about how to play the game.
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -38,7 +39,7 @@ We will start by adding some basic HTML to host the game.
   </body>
 </html>
 ```
-1. Press the Run button.
+2. Press the Run button.
 
 In Result, you should see a basic white web with the title and message.  
 
