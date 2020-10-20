@@ -103,6 +103,51 @@ You should now see a blue box in your web page.
 
 ![Game Scene](images/scene.png)
 
+## Add Player
+
+Now it's time to add a player and make them move around the game scene. We will use an image of a cougar as our player.
+
+1. In JavaScript, in the preload function, add the following to load the cougar image.
+```javascript
+this.load.image('player', 'https://cjudd.github.io/basic-js-game-workshop/images/cougar.png');
+```
+2. In JavaScript, in the create function, add the following to create the player and place them at the coordinates of 100 and 100.
+```javascript
+this.player = this.physics.add.sprite(100, 100, 'player');
+```
+3. Press the Run button.
+
+Now you should have the cougar/player in the blue game square.
+
+![Player in Scene](images/playerinscene.png)
+
+## Add Movement
+
+The game isn't very interesting if the player just sits on the screen. It needs to move.
+
+1. In JavaScript, in the create function, add the following after the player is created.
+```javascript
+this.arrow = this.input.keyboard.createCursorKeys();
+```
+2. In JavaScript, in the update function, add the following to change the players location when the arrow keys are pressed.
+```javascript
+		if (this.arrow.right.isDown) {
+		  this.player.x += 3;
+		} else if (this.arrow.left.isDown) {
+		  this.player.x -= 3;
+		} 
+
+		if (this.arrow.down.isDown) {
+		  this.player.y += 3;
+		} else if (this.arrow.up.isDown) {
+		  this.player.y -= 3;
+		} 
+```
+3. Press the Run button.
+4. Make sure the Results has focus by clicking in it and then use your arrow keys to move the character around.
+
+
+
 ## Final Solution
 
 In HTML:
