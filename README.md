@@ -17,7 +17,7 @@ Instead of using a text editor or IDE to write code, we will use the web site ht
 
 1. Using a web browser to navigate, go to https://jsfiddle.net/.
 
-![JSFiddle](images/JSFiddle.png)
+![JSFiddle](images/jsfiddle.png)
 
 JSFiddle is organized in 4 main quadrants. The top left is where you enter HTML, the code that renders a web page. In the top right is where you enter CSS, the style that makes your web pages look attractive. In the bottom left is where you enter JavaScript, a programming language that adds the behavior and functionality to your application/game. Finally, the bottom right is where you see the results after pressing the run button. This is where you will be able to play the game. 
 
