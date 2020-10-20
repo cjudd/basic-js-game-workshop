@@ -146,7 +146,45 @@ this.arrow = this.input.keyboard.createCursorKeys();
 3. Press the Run button.
 4. Make sure the Results has focus by clicking in it and then use your arrow keys to move the character around.
 
+## Add Purpose
 
+Having a player running around the screen without any goal or purpose wouldn't be fun for long. So we are going to add a coin for the player go and get. Once that player collides/overlaps with the coin a new coin will be randomly generated for the player retrieve.
+
+1. In JavaScript, in the create function, add the following to load the coin image.
+```javascript
+this.load.image('coin', 'https://cjudd.github.io/basic-js-game-workshop/images/coin.png');
+```
+2. In the JavaScript, in the update function, add the following to initially create a coin.
+```javascript
+this.coin = this.physics.add.sprite(300, 300, 'coin');
+```
+3. In JavaScript, in the update function add the following to detect the collision/overlap and call a hit function.
+```javascript
+        // collision detection between player and coin
+        if (this.physics.overlap(this.player, this.coin)) {
+  		    this.hit();
+		}
+```
+4. In JavaScript, above the `}` that is above `new Phaser.Game({` add the following to randomly generate the new coin and make the game more interesting by temporarily growing the player to 120% it's original size. 
+```javascript
+    hit() {
+  	    // Randomly generate location of new coin
+  	    this.coin.x = Phaser.Math.Between(100, 600);
+  	    this.coin.y = Phaser.Math.Between(100, 300);
+
+	    this.tweens.add({
+		    targets: this.player, // on the player 
+		    duration: 200, // for 200ms 
+		    scaleX: 1.2, // increase scale vertically by 20% 
+		    scaleY: 1.2, // increase scale horizontally by 20% 
+		    yoyo: true, // at the end, go back to original scale 
+	    });
+    }
+```
+5. Press the Run button.
+6. Make sure the Results has focus by clicking in it and then use your arrow keys to move the character to retrieve the coin. Notice how the player grows and the coin spawns in a new location.
+
+![Coin in Scene](images/coininscene.png)
 
 ## Final Solution
 
