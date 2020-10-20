@@ -27,7 +27,7 @@ We will start by adding some basic HTML to host the game.
 
 1. In HTML (top left quadrant), add the following html to create a page with a title of Cougar Chase and a message to the user about how to play the game.
 
-```html
+```
 <!DOCTYPE html>
 <html>
   <head>
