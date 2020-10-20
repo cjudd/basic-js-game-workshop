@@ -72,6 +72,7 @@ The way the Phaser.io framework works and many other game frameworks is the prel
 <div id="game"></div>
 ```
 3. In JavaScript, add the following to set up basic game mechanics.
+
 ```javascript
 class mainScene {
 
@@ -98,6 +99,7 @@ new Phaser.Game({
     parent: 'game', // Create the game inside the <div id="game"> 
 });
 ```
+
 4. Press the Run button.
 
 You should now see a blue box in your web page.
