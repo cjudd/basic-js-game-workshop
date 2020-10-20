@@ -186,7 +186,30 @@ this.coin = this.physics.add.sprite(300, 300, 'coin');
 
 ![Coin in Scene](images/coininscene.png)
 
+## Add Scoring
+
+Of course while playing the game, you will want to know how many coins you have retrieved, so we will add scoring.
+
+1. In JavaScript, in the create function, add the following to create an initial score of 0 and draw a place to display the score.
+```javascript
+        // set, style and display score
+		this.score = 0;
+		let style = { font: '20px Arial', fill: '#fff' };
+		this.scoreText = this.add.text(20, 20, 'score: ' + this.score, style);
+```
+2. In JavaScript, in the hit function, add the following after `this.coin.y = Phaser.Math.Between(100, 300);` to set and render the current score.
+```javascript
+  	    // Increment the score
+  	    this.score += 10;
+  	    this.scoreText.setText('score: ' + this.score);
+```
+3. Make sure the Results has focus by clicking in it and then use your arrow keys to move the character around to grab coins and watch your score.
+
+![Score](images/score.png)
+
 ## Final Solution
+
+If you run into problems or just want to get to the solution quickly, you can copy and paste the solution into the 3 corresponding quadrants and run it. 
 
 In HTML:
 
